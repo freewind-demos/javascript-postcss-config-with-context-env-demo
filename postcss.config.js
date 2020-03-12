@@ -1,5 +1,12 @@
-module.exports = {
+module.exports = (context) => {
+  return {
     plugins: [
-        require('precss')
+      require('precss'),
+      ...(context.env === 'hash' ? [
+        require('postcss-hash')({
+          algorithm: 'md5',
+        })
+      ] : [])
     ]
+  }
 }

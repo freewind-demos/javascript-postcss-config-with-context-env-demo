@@ -1,11 +1,12 @@
 {
   "scripts": {
     "demo": "postcss hello.css --config ./ --dir ./build",
-    "call-by-js": "node postcss-with-config.js"
+    "hash": "postcss hello.css --config ./ --dir ./build --env hash"
   },
   "devDependencies": {
     "autoprefixer": "9.1.5",
     "postcss-cli": "6.0.0",
+    "postcss-hash": "2.0.0",
     "postcss-load-config": "2.0.0",
     "precss": "3.1.2"
   }
