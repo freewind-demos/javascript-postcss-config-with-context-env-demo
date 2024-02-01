@@ -1,13 +1,13 @@
 {
-    "scripts": {
-        "hash": "postcss hello.css --config ./ --dir ./build --env hash",
-        "start": "postcss hello.css --config ./ --dir ./build"
-    },
-    "devDependencies": {
-        "autoprefixer": "9.1.5",
-        "postcss-cli": "6.0.0",
-        "postcss-hash": "2.0.0",
-        "postcss-load-config": "2.0.0",
-        "precss": "3.1.2"
-    }
+  "scripts": {
+    "hash": "postcss hello.css --config ./ --dir ./build --env hash",
+    "start": "postcss hello.css --config ./ --dir ./build"
+  },
+  "devDependencies": {
+    "autoprefixer": "9.1.5",
+    "postcss-cli": "6.0.0",
+    "postcss-hash": "2.0.0",
+    "postcss-load-config": "2.0.0",
+    "precss": "3.1.2"
+  }
 }
